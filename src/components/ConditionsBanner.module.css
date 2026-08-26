@@ -1,0 +1,63 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.weatherDelay {
+  color: var(--status-minor-delay);
+  font-size: 13px;
+}
+
+.muted {
+  opacity: 0.6;
+}
+
+.incidents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.incidentCount {
+  font-weight: 500;
+}
+
+.incidentList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  font-size: 13px;
+}
+
+.severity-minor {
+  color: var(--status-minor);
+}
+
+.severity-moderate {
+  color: var(--status-moderate);
+}
+
+.severity-severe {
+  color: var(--status-severe);
+  font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.on-time {
+  color: var(--status-on-time);
+  background: color-mix(in srgb, var(--status-on-time) 15%, transparent);
+}
+
+.minor-delay {
+  color: var(--status-minor-delay);
+  background: color-mix(in srgb, var(--status-minor-delay) 15%, transparent);
+}
+
+.major-delay {
+  color: var(--status-major-delay);
+  background: color-mix(in srgb, var(--status-major-delay) 15%, transparent);
+}

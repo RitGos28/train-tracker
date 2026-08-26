@@ -1,0 +1,42 @@
+.board {
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.empty {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th {
+  text-align: left;
+  font-weight: 500;
+  opacity: 0.6;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid var(--card-border);
+  vertical-align: middle;
+}
+
+.reason {
+  opacity: 0.8;
+  max-width: 320px;
+}

@@ -1,0 +1,51 @@
+.mapWrapper {
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+}
+
+.segment {
+  stroke: var(--card-border);
+  stroke-width: 3;
+}
+
+.segmentFlagged {
+  stroke: var(--status-major-delay);
+  stroke-width: 3;
+  stroke-dasharray: 6 4;
+}
+
+.stationDot {
+  fill: var(--foreground);
+}
+
+.stationLabel {
+  fill: var(--foreground);
+  opacity: 0.7;
+  font-size: 9px;
+}
+
+.train {
+  fill: var(--status-on-time);
+}
+
+.trainFaulted {
+  fill: var(--status-major-delay);
+}
+
+.faultIcon {
+  font-size: 10px;
+  fill: var(--status-major-delay);
+}
